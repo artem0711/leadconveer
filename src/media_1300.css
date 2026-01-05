@@ -1,0 +1,81 @@
+@media only screen and (min-width: 1300px) {
+    .button {
+        font-size: 1.25rem;
+    }
+
+    .h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        font-size: 1.25rem;
+    }
+
+    .header .menu {
+        gap: 60px;
+    }
+
+    .first-block .advantage {
+        font-size: 1rem;
+    }
+
+    .first-block {
+        grid-column-gap: 35px;
+    }
+
+    .work-from-home::after {
+        right: 20px;
+        bottom: 330px;
+    }
+
+    .why .advantages {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .why .advantages .advantage {
+        padding: 40px;
+    }
+
+    .why .advantages .advantage .wrapper .number {
+        font-size: 4rem;
+    }
+
+    .why .advantages .text {
+        font-size: 1.2rem;
+    }
+
+    .why .advantage-cards {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .why .advantage-cards .card {
+        padding: 25px;
+        font-size: 1rem;
+        grid-column: auto;
+    }
+
+    .why .advantage-cards .card:nth-child(4),
+    .why .advantage-cards .card:nth-child(5) {
+        grid-column: auto;
+    }
+
+    .why .advantage-cards .card {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        padding: 80px 0;
+    }
+
+    footer .menu a {
+        font-size: 1rem;
+    }
+}

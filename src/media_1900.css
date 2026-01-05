@@ -1,0 +1,57 @@
+@media only screen and (min-width: 1900px) {
+    .button {
+        font-size: 1.5rem;
+    }
+
+    .h1 {
+        font-size: 5.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .header {
+        font-size: 1.5rem;
+    }
+
+    a.logo {
+        margin-left: 70px;
+    }
+
+    .first-block .advantage {
+        font-size: 1.25rem;
+    }
+
+    .first-block {
+        grid-column-gap: 90px;
+    }
+
+    .why {
+        margin: 120px 70px;
+    }
+
+    .why .advantages .advantage .wrapper .number {
+        font-size: 5rem;
+    }
+
+    .why .advantages .text {
+        font-size: 1.5rem;
+    }
+
+    .why .advantage-cards .card {
+        font-size: 1.5rem;
+    }
+
+    footer .company {
+        font-size: 1.5rem;
+    }
+
+    footer .menu a {
+        font-size: 1.25rem;
+    }
+}

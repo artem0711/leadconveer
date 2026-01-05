@@ -1,0 +1,46 @@
+@media only screen and (min-width: 575px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .h1 {
+        font-size: 3.5rem;
+    }
+
+    .first-block {
+        padding: 30px 35px 0 35px;
+        gap: 30px;
+    }
+
+    .first-block .advantages {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .first-block .advantages .advantage:nth-child(4),
+    .first-block .advantages .advantage:nth-child(5),
+    .first-block .advantages .advantage:nth-child(6) {
+        border-radius: 35px 35px 0 0;
+    }
+
+    .why .advantage-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why .advantage-cards .card {
+        padding: 25px;
+        grid-column: auto / span 1;
+    }
+
+    .why .advantage-cards .card:nth-child(5) {
+        grid-column: auto / span 2;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+}

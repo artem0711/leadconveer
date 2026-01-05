@@ -1,0 +1,125 @@
+@media only screen and (min-width: 992px) {
+    .button {
+        font-size: 1rem;
+    }
+
+    .h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .header {
+        font-size: 1rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header label {
+        display: none;
+    }
+
+    .header input[type="checkbox"]#burger-menu {
+        display: none;
+    }
+
+    .header ul.menu {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .header ul.menu {
+        display: flex;
+    }
+
+    .header ul.contacts {
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .first-block {
+        display: grid;
+        grid-template-columns: 48% 1fr;
+        gap: 30px;
+        padding: 60px 70px 0 70px;
+    }
+
+    .first-block .advantages {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+        grid-column: span 2;
+    }
+
+    .first-block .advantage {
+        padding: 10px;
+        font-size: 0.75rem;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .first-block .advantages .advantage:nth-child(1),
+    .first-block .advantages .advantage:nth-child(2),
+    .first-block .advantages .advantage:nth-child(3) {
+        border-radius: 35px 35px 0 0;
+    }
+
+    .work-from-home::after {
+        right: 20px;
+        bottom: 330px;
+    }
+
+    .why {
+        margin: 60px;
+    }
+
+    .why .advantages {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .why .advantages .advantage .wrapper .number {
+        font-size: 3.5rem;
+    }
+
+    .why .advantages .text {
+        font-size: 1rem;
+    }
+
+    .why .advantage-cards {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .why .advantage-cards .card {
+        padding: 25px;
+        font-size: 1rem;
+        grid-column: auto / span 2;
+    }
+
+    .why .advantage-cards .card:nth-child(4),
+    .why .advantage-cards .card:nth-child(5) {
+        grid-column: auto / span 3;
+    }
+
+    footer .company {
+        font-size: 1rem;
+    }
+
+    footer .menu {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    footer .menu a {
+        font-size: 0.9rem;
+    }
+
+    footer .menu a:not(:last-child):after {
+        content: "|";
+        margin: 0 2px;
+    }
+}
